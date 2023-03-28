@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<title>User Profile</title>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    <script type="text/javascript" src="profile.js"></script>
+
+<body>
+
+    <div class="box">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXMgp1y7UTH2Zt-TSqb38uo-QUPJs-1IQm5sqLxvxlrw7RLNFyXcQCnqYUUKWnyuGWO_M_QOQFqKk&usqp=CAU&ec=48665701" class="user">
+
+        <h1>Thanks for registration and Login</h1>
+        <p>Continue with Profile</p>
+
+        <form name="myform3"  onsubmit="return validateForm()">
+
+            <p>LastName</p>
+            <input type="text" name="lastname" placeholder="Enter Lastname" required="">
+
+            <p>Address</p>
+            <input type="text" name="address" placeholder="Enter Address" required="">
+
+            <p>Age</p>
+            <input type="number" name="age" placeholder="Enter Age" required="">
+
+            <p>Phone Number</p>
+            <input type="number" name="no" placeholder="Enter Phone Number" required="">
+
+             <div id="errorBox"></div>
+            <input type="submit" name="" value="Update">
+            
+            
+            
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>

@@ -1,0 +1,78 @@
+
+		button {
+			padding: 10px 20px;
+			font-size: 18px;
+			margin: 10px;
+			border-radius: 5px;
+			background-color: #FFA500;
+			color: white;
+			border: none;
+			cursor: pointer;
+                  font-family:Impact
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items:center;
+			height: 100vh;
+			background-image: url('https://wallpaperaccess.com/full/2314950.jpg');
+			background-size: cover;
+			background-position: center center;
+			font-family: Algerian, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333;
+		}
+
+.box {
+  background: #0077be;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 50%;
+  transform: translate(50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  width: 500px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: 0;
+  border: 1px solid #ccc;
+
+}
+.box-blur {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  z-index: -1;
+  background-color:#0077be ;
+  filter: blur(5px);
+}
+
+
+h1{
+			margin: 0 0 20px 30px;
+		}
+ p {
+			margin: 0 0 20px 70px;
+		}
+.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 20px;
+		}
+.container button:first-child {
+			background-color: #4CAF50;
+		}
+
+.container button:last-child {
+			background-color: #008CBA;
+		}
+	
